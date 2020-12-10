@@ -18,9 +18,9 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form id="search-form" class="mb-3">
+          <form id="search-form" class="mb-4">
             <div class="row">
-              <div class="col-9">
+              <div class="col-6">
                 <input
                   type="search"
                   placeholder="Search for a city.."
@@ -32,8 +32,16 @@
               <div class="col-3">
                 <input
                   type="submit"
-                  value="search"
-                  class="btn btn-primary w-100"
+                  value="Search"
+                  class="btn btn-outline-secondary w-100"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Current"
+                  class="btn btn-outline-secondary w-100"
+                  id="current-location"
                 />
               </div>
             </div>
@@ -41,7 +49,7 @@
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
-              <li>Last updated: <span id="date"></span></li>
+              <li>Last upadated: <span id="date"></span></li>
               <li id="description"></li>
             </ul>
             <div class="row">
@@ -64,10 +72,11 @@
                 </ul>
               </div>
             </div>
+            <hr />
             <div class="row weather-forecast" id="forecast"></div>
           </div>
         </div>
-        <small> <a href="">Open-source code</a> by Winta Abera. </small>
+        <small> <a href="">Open-source code</a> by Winta Abera </small>
       </div>
     </div>
     <script src="src/app.js"></script>

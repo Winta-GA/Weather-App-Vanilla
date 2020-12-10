@@ -18,9 +18,9 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form id="search-form" class="mb-4">
+          <form id="search-form" class="mb-3">
             <div class="row">
-              <div class="col-6">
+              <div class="col-md-8">
                 <input
                   type="search"
                   placeholder="Search for a city.."
@@ -29,19 +29,11 @@
                   autocomplete="off"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-md-4">
                 <input
                   type="submit"
                   value="Search"
                   class="btn btn-outline-secondary w-100"
-                />
-              </div>
-              <div class="col-3">
-                <input
-                  type="submit"
-                  value="Current"
-                  class="btn btn-outline-secondary w-100"
-                  id="current-location"
                 />
               </div>
             </div>
@@ -53,10 +45,10 @@
               <li id="description"></li>
             </ul>
             <div class="row">
-              <div class="col-6">
+              <div class="col">
                 <div class="clearfix weather-temperature">
-                  <img src="" alt="Clear" id="icon" class="float-left" />
-                  <div class="float-left">
+                  <img src="" alt="Clear" id="icon" />
+                  <div class="float-center">
                     <strong id="temperature"></strong
                     ><span class="units"
                       ><a href="#" id="celsius-link" class="active">℃</a> |
@@ -64,8 +56,9 @@
                     >
                   </div>
                 </div>
+                </div>
               </div>
-              <div class="col-6">
+              <div class="col">
                 <ul>
                   <li>Humidity: <span id="humidity"></span>%</li>
                   <li>Wind: <span id="wind"></span> km/h</li>
@@ -76,7 +69,14 @@
             <div class="row weather-forecast" id="forecast"></div>
           </div>
         </div>
-        <small> <a href="">Open-source code</a> by Winta Abera </small>
+        <small class="footer">
+          <a
+            href="https://github.com/Winta-GA/Weather-App-Vanilla"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Winta Abera
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>

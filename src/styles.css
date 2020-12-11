@@ -32,15 +32,15 @@ li.first-letter {
 
 .weather-app-wrapper {
   max-width: 400px;
-  margin: 30px auto;
+  margin: 10px auto;
   width: 100%;
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid #020202;
-  border-radius: 10px;
-  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  border-radius: 30px;
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
 }
 
 .overview {
@@ -102,5 +102,11 @@ li.first-letter {
   height: auto;
   line-height: 15px;
   white-space: nowrap;
-  color: #020202;
+}
+.form-control {
+  border-radius: 10px;
+  background: #e9f2f7;
+}
+.btn-outline-secondary {
+  border-radius: 10px;
 }

@@ -39,7 +39,8 @@ li.first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #020202;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
 }
 
 .overview {
@@ -96,7 +97,7 @@ li.first-letter {
 
 .weather-forecast-temperature {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   height: auto;
   line-height: 15px;

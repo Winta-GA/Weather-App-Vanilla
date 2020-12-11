@@ -78,7 +78,7 @@ li.first-letter {
 }
 
 .weather-forecast h3 {
-  color: rgb(186, 186, 186);
+  color: rg#020202;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -101,8 +101,5 @@ li.first-letter {
   height: auto;
   line-height: 15px;
   white-space: nowrap;
-  color: rgb(186, 186, 186);
-}
-#forecast {
   color: #020202;
 }
